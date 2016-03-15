@@ -17,22 +17,27 @@ if exists("syntax_on")
 endif
 let g:colors_name="ghost"
 
-hi Normal   term=NONE cterm=NONE	ctermfg=15	ctermbg=235	gui=NONE	guifg=#CCCCCC	guibg=#1a1a1a
+" Colors
+" bg = [233, '#121212']
+" text = [7, '#C0C0C0']
+" comment = [242, '#666666']
 
-hi Comment		    term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#666666	guibg=NONE
-hi FoldColumn		  term=NONE	cterm=NONE	ctermfg=0	ctermbg=240	gui=NONE	guifg=#1A1A1A	guibg=#555555
-hi Folded		      term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#AAAAAA	guibg=NONE
+hi Normal   term=NONE cterm=NONE	ctermfg=7	ctermbg=233	gui=NONE	guifg=#C0C0C0 guibg=#121212
+
+hi Comment		    term=NONE	cterm=NONE	ctermfg=242	ctermbg=NONE	gui=NONE	guifg=#666666	guibg=NONE
+hi FoldColumn		  term=NONE	cterm=NONE	ctermfg=0	ctermbg=240	gui=NONE	guifg=#C0C0C0	guibg=#121212
+hi Folded		      term=NONE	cterm=NONE	ctermfg=248	ctermbg=NONE	gui=NONE	guifg=#A8A8A8	guibg=#1C1C1C
 hi LineNr		      term=NONE	cterm=NONE	ctermfg=8	ctermbg=235	gui=NONE	guifg=#666666	guibg=#222222
 hi NonText		    term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
 hi SignColumn		  term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
 hi SpecialKey		  term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
-hi StatusLineNC   term=NONE	cterm=NONE	ctermfg=white	ctermbg=240	gui=NONE	guifg=#FFFFFF	guibg=#585858
+hi StatusLineNC   term=NONE	cterm=NONE	ctermfg=white	ctermbg=240	gui=NONE	guifg=#333333	guibg=#585858
 hi VertSplit		  term=NONE	cterm=NONE	ctermfg=black	ctermbg=240	gui=NONE	guifg=#000000	guibg=#444444
 
-hi CursorIM		    term=NONE	cterm=NONE	ctermfg=0	ctermbg=4	gui=NONE	guifg=#000000	guibg=#DDDDDD
-hi CursorLineNr   term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=0	gui=NONE	guifg=NONE	guibg=#000000
-hi CursorLine		  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=0	gui=NONE	guifg=NONE	guibg=#999999
-hi Cursor		      term=NONE	cterm=NONE	ctermfg=0	ctermbg=4	gui=NONE	guifg=#000000	guibg=#DDDDDD
+hi CursorIM		    term=NONE	cterm=NONE	ctermfg=0	ctermbg=4	gui=NONE	guifg=#000000	guibg=#666666
+hi CursorLineNr   term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=0	gui=NONE	guifg=#CCCCCC	guibg=#000000
+hi CursorLine		  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=0	gui=NONE	guifg=#1A1A1A	guibg=#DDDDDD
+hi Cursor		      term=NONE	cterm=NONE	ctermfg=0	ctermbg=4	gui=NONE	guifg=#1A1A1A	guibg=#DDDDDD
 hi Directory		  term=NONE	cterm=NONE	ctermfg=69	ctermbg=NONE	gui=NONE	guifg=#5F87FF	guibg=NONE
 hi ErrorMsg		    term=NONE	cterm=NONE	ctermfg=15	ctermbg=52	gui=NONE	guifg=NONE	guibg=#FF0000
 hi Error		      term=NONE	cterm=NONE	ctermfg=15	ctermbg=52	gui=NONE	guifg=NONE	guibg=#FF0000
@@ -41,9 +46,9 @@ hi MoreMsg		    term=NONE	cterm=NONE	ctermfg=69	ctermbg=NONE	gui=NONE	guifg=#5F8
 hi Question		    term=NONE	cterm=NONE	ctermfg=69	ctermbg=NONE	gui=NONE	guifg=#5F87FF	guibg=NONE
 hi Search		      term=NONE	cterm=NONE	ctermfg=0	ctermbg=6	gui=NONE	guifg=#000000	guibg=#00CDCD
 hi StatusLine		  term=NONE	cterm=NONE	ctermfg=0	ctermbg=15	gui=NONE	guifg=#000000	guibg=#FFFFFF
-hi Todo		        term=NONE	cterm=NONE	ctermfg=10	ctermbg=NONE	gui=NONE	guifg=#FF00FF   guibg=#000000
+hi Todo		        term=NONE	cterm=NONE	ctermfg=10	ctermbg=NONE	gui=NONE	guifg=#FF00FF   guibg=NONE
 hi VisualNOS		  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=69	gui=NONE	guifg=NONE	guibg=#5F87FF
-hi WarningMsg		  term=NONE	cterm=NONE	ctermfg=15	ctermbg=52	gui=NONE	guifg=NONE	guibg=#5F0000
+hi WarningMsg		  term=NONE	cterm=NONE	ctermfg=15	ctermbg=52	gui=NONE	guifg=NONE	guibg=#FF0000
 
 hi ColorColumn    term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
 hi CursorColumn		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
