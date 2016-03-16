@@ -23,10 +23,10 @@ let g:colors_name="ghost"
 " comment = [242, '#666666']
 
 hi Normal   term=NONE cterm=NONE	ctermfg=7	ctermbg=233	gui=NONE	guifg=#C0C0C0 guibg=#121212
+hi Comment  term=NONE	cterm=NONE	ctermfg=242	ctermbg=NONE	gui=NONE	guifg=#666666	guibg=NONE
 
-hi Comment		    term=NONE	cterm=NONE	ctermfg=242	ctermbg=NONE	gui=NONE	guifg=#666666	guibg=NONE
 hi FoldColumn		  term=NONE	cterm=NONE	ctermfg=0	ctermbg=240	gui=NONE	guifg=#C0C0C0	guibg=#121212
-hi Folded		      term=NONE	cterm=NONE	ctermfg=248	ctermbg=NONE	gui=NONE	guifg=#A8A8A8	guibg=#1C1C1C
+hi Folded		      term=NONE	cterm=NONE	ctermfg=248	ctermbg=NONE	gui=NONE	guifg=#A8A8A8	guibg=#262626
 hi LineNr		      term=NONE	cterm=NONE	ctermfg=8	ctermbg=235	gui=NONE	guifg=#666666	guibg=#222222
 hi NonText		    term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
 hi SignColumn		  term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
