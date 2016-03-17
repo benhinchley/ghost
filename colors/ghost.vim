@@ -58,7 +58,7 @@ hi Todo		        term=NONE	cterm=NONE	ctermfg=129	ctermbg=NONE	gui=NONE	guifg=#a
 "hi VisualNOS		  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=69	gui=NONE	guifg=NONE	guibg=#5F87FF
 "hi WarningMsg		  term=NONE	cterm=NONE	ctermfg=15	ctermbg=52	gui=NONE	guifg=NONE	guibg=#FF0000
 
-"hi ColorColumn    term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
+hi ColorColumn    term=NONE	cterm=NONE	ctermfg=233	ctermbg=242	gui=NONE	guifg=#121212	guibg=#666666
 "hi CursorColumn		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
 "hi DiffText		    term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
 "hi IncSearch		  term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
