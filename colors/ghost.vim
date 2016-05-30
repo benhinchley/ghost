@@ -20,8 +20,8 @@ let g:colors_name="ghost"
 " Colors
 " text: 7 #c0c0c0
 " background: 233 #121212
-" comment: 236 #303030
-" highlight: 242 #666666
+" comment: 243 #767676
+" highlight: 254 #e4e4e4
 " blue: 69 #5f87ff
 " green: 64 #5f8700
 " red: 88 #870000
@@ -38,7 +38,7 @@ hi LineNr		      term=NONE	cterm=NONE	ctermfg=237	ctermbg=233	gui=NONE	guifg=#30
 hi NonText	      term=NONE	cterm=NONE	ctermfg=242	ctermbg=NONE	gui=NONE	guifg=#666666	guibg=NONE
 hi SignColumn		  term=NONE	cterm=NONE	ctermfg=236	ctermbg=233	gui=NONE	guifg=#303030	guibg=#121212
 "hi SpecialKey		  term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
-"hi StatusLineNC   term=NONE	cterm=NONE	ctermfg=white	ctermbg=240	gui=NONE	guifg=#333333	guibg=#585858
+hi StatusLineNC   term=NONE	cterm=NONE	ctermfg=white	ctermbg=240	gui=NONE	guifg=#333333	guibg=#585858
 hi VertSplit		  term=NONE	cterm=NONE	ctermfg=7	ctermbg=233	gui=NONE	guifg=#c0c0c0	guibg=#121212
 
 hi Cursor		      term=NONE	cterm=NONE	ctermfg=233	ctermbg=7	gui=NONE	guifg=#121212	guibg=#c0c0c0
@@ -80,10 +80,10 @@ hi Pmenu		      term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse
 hi PmenuSel		  term=NONE	cterm=NONE	ctermfg=7	ctermbg=242	gui=NONE	guifg=#c0c0c0	guibg=#666666
 "hi PmenuThumb	  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 "hi Scrollbar	  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
-"hi TabLine		  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
-"hi TabLineFill  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
-"hi TabLineSel		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
-"hi Tooltip		  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
+hi TabLine		  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
+hi TabLineFill  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
+hi TabLineSel		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
+hi Tooltip		  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 
 hi Boolean		      term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Character		    term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
