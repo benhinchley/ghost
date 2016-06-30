@@ -27,10 +27,10 @@ let g:colors_name="ghost"
 " red: 88 #870000
 " orange: 166 #d75f00
 
-" TODO: Make sure all colors are changed
-
+" General
 hi Normal   term=NONE cterm=NONE	ctermfg=7	ctermbg=233	gui=NONE	guifg=#c0c0c0 guibg=#121212
 hi Comment  term=NONE	cterm=NONE	ctermfg=236	ctermbg=NONE	gui=NONE	guifg=#303030 guibg=NONE
+
 
 "hi FoldColumn	  term=NONE	cterm=NONE	ctermfg=0	ctermbg=240	gui=NONE	guifg=#C0C0C0	guibg=#121212
 hi Folded		      term=NONE	cterm=NONE	ctermfg=237	ctermbg=NONE	gui=NONE	guifg=#303030	guibg=NONE
@@ -51,7 +51,7 @@ hi Error		      term=NONE	cterm=NONE	ctermfg=7	ctermbg=52	gui=NONE	guifg=#c0c0c0
 "hi ModeMsg		    term=NONE	cterm=NONE	ctermfg=69	ctermbg=NONE	gui=NONE	guifg=#5F87FF	guibg=NONE
 "hi MoreMsg		    term=NONE	cterm=NONE	ctermfg=69	ctermbg=NONE	gui=NONE	guifg=#5F87FF	guibg=NONE
 "hi Question		    term=NONE	cterm=NONE	ctermfg=69	ctermbg=NONE	gui=NONE	guifg=#5F87FF	guibg=NONE
-"hi Search		      term=NONE	cterm=NONE	ctermfg=0	ctermbg=6	gui=NONE	guifg=#000000	guibg=#00CDCD
+hi Search		      term=NONE	cterm=NONE	ctermfg=233	ctermbg=7	gui=NONE	guifg=#121212	guibg=#c0c0c0
 hi StatusLine		  term=NONE	cterm=NONE	ctermfg=233	ctermbg=7	gui=NONE	guifg=#121212	guibg=#c0c0c0
 hi Todo		        term=NONE	cterm=NONE	ctermfg=242 ctermbg=NONE	gui=NONE	guifg=#666666  guibg=NONE
 "hi VisualNOS		  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=69	gui=NONE	guifg=NONE	guibg=#5F87FF
@@ -74,7 +74,7 @@ hi WildMenu		    term=NONE	cterm=NONE	ctermfg=7	ctermbg=236	gui=NONE	guifg=#c0c0
 "hi SpellLocal   term=underline	cterm=underline	ctermfg=129	ctermbg=NONE	gui=underline	guifg=#af00ff	guibg=NONE
 "hi SpellRare	  term=underline	cterm=underline	ctermfg=129	ctermbg=NONE	gui=underline	guifg=#af00ff	guibg=NONE
 
-"hi Menu         term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
+hi Menu         term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Pmenu		      term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
 "hi PmenuSbar	  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi PmenuSel		  term=NONE	cterm=NONE	ctermfg=7	ctermbg=242	gui=NONE	guifg=#c0c0c0	guibg=#666666
@@ -85,6 +85,8 @@ hi TabLineFill  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NO
 hi TabLineSel		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Tooltip		  term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 
+
+" Syntax
 hi Boolean		      term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Character		    term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Conceal		      term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
