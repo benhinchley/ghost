@@ -7,7 +7,7 @@
 "(|  | '. (_/|  .-.  |  \ |  | |  |.-._)   \   |  |
  "|  '--'  | |  | |  |   `'  '-'  '\       /   |  |
   "`------'  `--' `--'     `-----'  `-----'    `--'
-" Ghost Vim Theme
+" Ghost Airline Theme
 " Author: Benjamin Hinchley
 " License: WTFPL
 
@@ -17,7 +17,7 @@ let s:pink    = [131, '#af5f5f']
 let s:blue    = [ 67, '#5f87af']
 let s:orange  = [166, '#d75f00']
 let s:outerfg = [ 16, '#000000']
-let s:innerbg = [233, '#1a1a1a']
+let s:innerbg = [233, '#121212']
 let s:middle  = ['#bcbcbc', '#444444', 250, 238]
 
 " Normal mode
