@@ -32,10 +32,10 @@ let s:gray          = { "gui": "#7d7d7d", "cterm": "243" }
 let s:bright_gray   = { "gui": "#a3a3a3", "cterm": "248" }
 let s:blue          = { "gui": "#0087ff", "cterm": "33"  }
 let s:red           = { "gui": "#ff0000", "cterm": "196" }
-let s:yellow        = { "gui": "#ebeb00", "cterm": "190" }
-let s:green         = { "gui": "#08f500", "cterm": "46"  }
-let s:pink          = { "gui": "#f12eff", "cterm": "201" }
-let s:cyan          = { "gui": "#00e9f5", "cterm": "39"  }
+let s:yellow        = { "gui": "#d7ff00", "cterm": "190" }
+let s:green         = { "gui": "#00ff00", "cterm": "46"  }
+let s:pink          = { "gui": "#ff00ff", "cterm": "201" }
+let s:cyan          = { "gui": "#00ffff", "cterm": "51"  }
 
 
 " https://github.com/noahfrederick/vim-hemisu/
