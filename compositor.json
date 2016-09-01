@@ -1,0 +1,90 @@
+{
+  "name": "benhinchley/ghost",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.19"
+  },
+  "title": "",
+  "branch": "master",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/benhinchley/ghost",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "ghost",
+      "subhead": ":ghost: minimal vim theme",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "ghost: :ghost: minimal vim theme",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "benhinchley",
+          "repo": "ghost"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>:ghost: ghost vim theme</h1>\n<p>minimal vim theme with no syntax coloring</p>\n<p>Inspired by and based off of:</p>\n<ul>\n<li><a href=\"https://github.com/robertmeta/nofrils\">robertmeta/nofrils</a></li>\n<li><a href=\"https://github.com/pbrisbin/vim-colors-off\">pbrisbin/vim-colors-off</a></li>\n</ul>\n<h3>License</h3>\n<pre>Copyright &#xA9; <span class=\"hljs-number\">2016</span> Benjamin Hinchley &lt;benjaminhinchley@gmail.com&gt;\nThis work is free. You can redistribute <span class=\"hljs-keyword\">it</span> <span class=\"hljs-keyword\">and</span>/<span class=\"hljs-keyword\">or</span> modify <span class=\"hljs-keyword\">it</span> under <span class=\"hljs-keyword\">the</span>\nterms <span class=\"hljs-keyword\">of</span> <span class=\"hljs-keyword\">the</span> Do What The Fuck You Want To Public License, Version <span class=\"hljs-number\">2</span>,\n<span class=\"hljs-keyword\">as</span> published <span class=\"hljs-keyword\">by</span> Sam Hocevar. See <span class=\"hljs-keyword\">http</span>://www.wtfpl.net/ <span class=\"hljs-keyword\">for</span> more details.</pre>"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/benhinchley/ghost",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/benhinchley",
+          "text": "benhinchley"
+        }
+      ]
+    }
+  ]
+}
