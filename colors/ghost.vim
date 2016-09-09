@@ -37,6 +37,14 @@ let s:green         = { "gui": "#00ff00", "cterm": "46"  }
 let s:pink          = { "gui": "#ff00ff", "cterm": "201" }
 let s:cyan          = { "gui": "#00ffff", "cterm": "51"  }
 
+if &background == "dark"
+  let s:fg = s:white
+  let s:bg = s:black
+else
+  let s:fg = s:black
+  let s:bg = s:bright_white
+endif
+
 
 " https://github.com/noahfrederick/vim-hemisu/
 function! s:h(group, style)
@@ -53,15 +61,15 @@ endfunction
 " TODO: Clean up file
 
 " General
-call s:h("Normal", {"bg": s:black, "fg": s:white})
+call s:h("Normal", {"bg": s:bg, "fg": s:fg})
 call s:h("Comment", {"fg": s:gray})
 
-call s:h("Cursor", {"bg": s:white, "fg": s:black})
+call s:h("Cursor", {"bg": s:fg, "fg": s:bg})
 hi! link CursorIM Cursor
-call s:h("CursorLine", {"bg": s:bright_white, "fg": s:black})
+call s:h("CursorLine", {"bg": s:fg, "fg": s:bg})
 hi! link CursorLineNr CursorLine
 
-call s:h("LineNr", {"bg": s:black, "fg": s:gray})
+call s:h("LineNr", {"bg": s:bg, "fg": s:gray})
 hi! link SignColumn LineNr
 
 hi! link ColorColumn CursorLineNr
